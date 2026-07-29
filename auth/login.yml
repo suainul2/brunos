@@ -5,7 +5,14 @@ info:
 
 http:
   method: POST
-  url: https://test.com
+  url: "{{url}}/login"
+  body:
+    type: json
+    data: |-
+      {
+        "email":"{{email}}",
+        "password":"{{password}}"
+      }
   auth: inherit
 
 settings:

@@ -1,0 +1,11 @@
+name: poskul
+variables:
+  - name: email
+    value: owner@poskul.com
+    description: ""
+  - name: password
+    value: password
+    description: ""
+  - name: url
+    value: https://poskul.test/api
+    description: ""
